@@ -318,6 +318,7 @@ def raw_data(df):
 
 
 def main():
+    print("-------------------- Bikeshare Programm --------------------\n")
     while True:
         filter_parameter = get_filters()
         df = load_data(filter_parameter)
