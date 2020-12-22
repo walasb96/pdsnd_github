@@ -318,6 +318,7 @@ def raw_data(df):
 
 
 def main():
+    """ The main part of the programm which use the previous function"""
     print("-------------------- Bikeshare Programm --------------------\n")
     while True:
         filter_parameter = get_filters()
